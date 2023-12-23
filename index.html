@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="rock-paper-scissor.css">
+    <script src="rock-paper-scissors.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Kablammo&family=Roboto:wght@100;400;700&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <p class="heading">Rock, Paper & Scissors</p>
+
+            <div class="play-buttons-container">
+                <button class="Rock play-buttons" onclick="playGame('Rock'); selectOption(`Rock`);">
+                    ✊🏻 </button>
+                <button class="Paper play-buttons" onclick="playGame('Paper'); selectOption('Paper');">
+                    ✋🏻</button>
+                <button class="Scissors play-buttons" onclick="playGame('Scissors');selectOption(`Scissors`);">
+                    ✌🏻</button>
+            </div>
+
+            <div class="result_part"></div>
+
+                <div class="moves hidden">
+                    <p class="your_move">Your Move</p>
+                    <p class="comp_move">Computer's Move</p>
+                </div>
+
+                <p class="js_result hidden"></p>
+
+                <div class="again_button">
+                    <button class="reset hidden" onclick="resetGame()">Play Again</button>
+                </div>
+
+            </div>
+            <div class="scores">
+                <div class="score_info_box">
+                    <div class="score_info">
+                        <p class="js-score">Score <span class="score_elem">-</span></p>
+                    </div>
+                </div>
+    
+                <button class="reset-score" onclick="resetScore(); resetGame()">Reset Score</button>
+            </div>
+            <div class="targetDiv hidden"></div>
+
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

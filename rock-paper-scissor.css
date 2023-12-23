@@ -1,0 +1,181 @@
+/* General styles for the body */
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: 'VT323', 'Amatic SC', 'Kablammo', 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Common styles for buttons */
+button {
+    font-family: 'VT323', 'Amatic SC', 'Kablammo', 'Roboto';
+    cursor: pointer;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 100px;
+    height: 150px;
+    text-align: center;
+    color: #fac44f;
+    font-weight: bold;
+    text-shadow: 0.05em 0.02em 0 rgba(240, 235, 235, 0.5);
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+/* Container for play buttons */
+.play-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -110px;
+}
+
+/* Styles for play buttons */
+.play-buttons {
+    flex: 1;
+    font-size: 100px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+    text-shadow: 0.1em 0.05em 0 rgba(240, 235, 235, 0.5);
+    border: 10px solid #fac44f;
+    margin: 20px;
+    transition: transform 0.8s ease-in-out;
+}
+
+/* Hidden element styles */
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+}
+
+/* Styles for game result display */
+.js_result {
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    border: 10px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0.07em 0.05em 0 #fac44f;
+    margin-top: 0px;
+}
+
+/* Additional styles for various elements */
+.gifs,
+.sad,
+.flags {
+    height: 100px;
+    margin-top: -10px;
+}
+
+/* Styles for moves and their alignment */
+.moves {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    gap: 150px;
+    margin-left: 50px;
+    transition: transform 0.8s ease-in-out;
+    margin-top: -5px;
+}
+
+.your-move {
+    padding-right: 20px;
+    text-align: center;
+}
+
+.computer-move {
+    text-align: justify;
+}
+
+/* Disabled state styles */
+.disabled {
+    pointer-events: none;
+}
+
+/* Styles for the "Play Again" button */
+.again_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    transition: transform 0.8s ease-in-out;
+}
+
+.reset {
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #fac44f;
+    text-shadow: 0.1em 0.05em 0 rgba(0, 0, 0, 1);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: transform 0.8s ease-in-out;
+}
+
+/* Styles for score information */
+.score_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fac44f;
+    width: 190px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 6px solid #fac44f;
+    font-size: 35px;
+}
+
+.score_info_box {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for resetting the score */
+.reset-score {
+    margin-top: -15px;
+    width: 188px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 415px;
+    margin-top: 20px;
+}
+
+/* Styles for individual score elements */
+.score_elem {
+    color: white;
+    background-color: #fac44f;
+    border-radius: 50%;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Styles for the scores container */
+.scores {
+    margin-top: -150px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Styles for a target div */
+.targetDiv {
+    transition: transform 1s ease-in-out;
+    width: 0px;
+}
