@@ -5,7 +5,7 @@ Hey! 🙋🏻‍♀️ Welcome to my Rock, Paper, Scissors game project. It's a 
 ## How to Play
 
 1. **Open:**
-   - Go to [Rock-Paper-Scissor](https://manarpankaur03.github.io/Rock-Paper-Scissors/index.html)
+   - Go to [Rock-Paper-Scissor]
 
 2. **Make Your Move:**
    - Click "Rock," "Paper," or "Scissors" to play.
